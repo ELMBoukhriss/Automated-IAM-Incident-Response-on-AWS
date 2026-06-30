@@ -1,4 +1,4 @@
-# Automated-IAM-Incident-Response-on-
+# Automated IAM Incident Response on AWS
 
 ## Context and Business Impact
 
