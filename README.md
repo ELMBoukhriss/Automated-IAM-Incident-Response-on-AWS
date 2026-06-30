@@ -189,7 +189,7 @@ aws sns subscribe --topic-arn $SNS_TOPIC_ARN --protocol email --notification-end
 ```
 <img width="857" height="181" alt="image" src="assets/604081351-03de02e5-251b-48c7-b794-1167687d6e81.png" />
 <p></p>
-<img width="1039" height="129" alt="image" src="assets/604081351-221864c6-822c-4191-a179-180518241a06.png" />
+<img width="1039" height="129" alt="image" src="assets/604081459-221864c6-822c-4191-a179-180518241a06.png" />
 <p></p>
 We will receive an email from aws to confirm our subscription to the topic.  
 
@@ -310,11 +310,11 @@ aws iam list-user-policies --user-name icorp-app-service-account
 aws iam get-user-policy --user-name icorp-app-service-account --policy-name IREmergencyDenyAll --query 'PolicyDocument'
 
 ```
-<img width="1553" height="723" alt="image" src="assets/604468944-78cadf88-e73b-4249-b4f7-ff4fb8e204d4" />
-<img width="774" height="1033" alt="image" src="assets/604481415-bac3ee65-8379-4532-8099-5bf448fa500d" />
+<img width="1553" height="723" alt="image" src="assets/604468944-78cadf88-e73b-4249-b4f7-ff4fb8e204d4.png" />
+<img width="774" height="1033" alt="image" src="assets/604481415-bac3ee65-8379-4532-8099-5bf448fa500d.png" />
 
 We can also verify via the console
-<img width="1553" height="807" alt="image" src="assets/604457961-34a0f082-2790-4df8-bc0c-2f352b9be037" />
+<img width="1553" height="807" alt="image" src="assets/604457961-34a0f082-2790-4df8-bc0c-2f352b9be037.png" />
 <p></p>
 
 The containment of the user was successful and under 60sec, now the soc analyst/security engineer can view the dynamodb case record and start investigating the incident.
